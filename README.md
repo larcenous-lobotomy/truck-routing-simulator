@@ -33,6 +33,3 @@ of Hub, Highway and Truck.
 - A Network class maintains information about all the elements of the network
 - A given network can have instances of different sub-types of these classes,
 corresponding to the different companies involved.
-- To help manage the construction of these objects, we have a Factory class for each
-student. This class creates instances of the appropriate derived type for that student.
-Details are in Factory.javaThe files Hub.java, Truck.java, Highway.java contain definitions of the base classes.
