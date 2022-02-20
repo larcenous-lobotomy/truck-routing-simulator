@@ -37,3 +37,6 @@ corresponding to the different companies involved.
 
 # Instructions
 Enter `javac *.java` after opening the command prompt inside the directory containing the code. Then, merely run the executable.
+
+# Requirements
+The program runs correctly with the OpenJDK version 8 JRE.
