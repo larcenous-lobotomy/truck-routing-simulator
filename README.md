@@ -38,5 +38,18 @@ corresponding to the different companies involved.
 # Instructions
 Enter `javac *.java` after opening the command prompt inside the directory containing the code. Then, merely run the executable.
 
+# Input
+The file `lab6In.txt` is an example fo the input format at the command prompt. 
+
+The first line contains two integers, specifying the animate and display timesteps respectively. The next series of inputs are to initialise hubs, highways and trucks. For each of these types, the input specs are preceded by the number of such objects. The order of inputs followed is hubs > highways > trucks.
+
+Each argument line for hubs contains the space-separated values: x-coordinate, y-coordinate and capacity
+
+Each argument line for highways contains the space-separated values: hub-1 index, hub-2 index, capacity and speed limit
+
+Each argument line for trucks contains the space-separated values: src-x-coordinate, src-y-coordinate, dest-x-coordinate, dest-y-coordinate and start time
+
+The first line 
+
 # Requirements
 The program runs correctly with the OpenJDK version 8 JRE.
