@@ -49,7 +49,5 @@ Each argument line for highways contains the space-separated values: hub-1 index
 
 Each argument line for trucks contains the space-separated values: src-x-coordinate, src-y-coordinate, dest-x-coordinate, dest-y-coordinate and start time
 
-The first line 
-
 # Requirements
 The program runs correctly with the OpenJDK version 8 JRE.
