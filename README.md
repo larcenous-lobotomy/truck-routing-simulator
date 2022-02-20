@@ -39,7 +39,7 @@ corresponding to the different companies involved.
 Enter `javac *.java` after opening the command prompt inside the directory containing the code. Then, merely run the executable.
 
 # Input
-The file `lab6In.txt` is an example fo the input format at the command prompt. 
+The file `lab6In.txt` is an example for the input format at the command prompt. 
 
 The first line contains two integers, specifying the animate and display timesteps respectively. The next series of inputs are to initialise hubs, highways and trucks. For each of these types, the input specs are preceded by the number of such objects. The order of inputs followed is hubs > highways > trucks.
 
