@@ -26,10 +26,11 @@ minimal state information. For example, Truck does not keep track of the full ro
 the source, destination locations, and previous, current and next Hubs.
 Different companies manage the hubs and trucks. However, they all conform to some basic
 design. To model this, we have the following:
--- Base classes Hub, Truck,Highway (we will not model Station and Road since they can
+
+  - Base classes Hub, Truck,Highway (we will not model Station and Road since they can
 be implicit)
--- Each company creates its own derived classes of these, and specifically derived classes
+  - Each company creates its own derived classes of these, and specifically derived classes
 of Hub, Highway and Truck.
--- A Network class maintains information about all the elements of the network
--- A given network can have instances of different sub-types of these classes,
+  - A Network class maintains information about all the elements of the network
+  - A given network can have instances of different sub-types of these classes,
 corresponding to the different companies involved.
