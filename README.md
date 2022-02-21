@@ -49,5 +49,8 @@ Each argument line for highways contains the space-separated values: hub-1 index
 
 Each argument line for trucks contains the space-separated values: src-x-coordinate, src-y-coordinate, dest-x-coordinate, dest-y-coordinate and start time
 
+# Output
+The program upon execution produces a window (using Swing) that provides a convenient visualisation of the routing. The timesteps and other arguments require tweaking for a stable simulation, taking into account the sceen size as well as human perception of speed.
+
 # Requirements
 The program runs correctly with the OpenJDK version 8 JRE.
